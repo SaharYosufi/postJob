@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    background-color: #e7eff6;
+}
+.nav-brand {
+    font-size: 2rem;
+    color: #2a4d69;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+}
+.nav-link:hover {
+    background-color: #2a4d69;
+    border: #2a4d69 solid;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+.nav-item {
+    font-weight: 500;
+    padding-left: 35px;
+}
+.btn0 {
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: #e7eff6;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: #2a4d69;
+}
+.btn0:hover {
+    background-color: #0f283d;
+    transition: all 0.4s;
+}
+.btn1 {
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    color: #2a4d69;
+    outline: none;
+    border: 2px solid #2a4d69;
+}
+.btn1:hover {
+    background-color: #0f283d;
+    transition: all 0.4s;
+    color: #e7eff6;
+    border: none;
+    outline: none;
+}
+.btn0-feature {
+    text-decoration: none;
+    color: #e7eff6;
+}
+.btn1-feature {
+    text-decoration: none;
+    color: #0f283d;
+}
+.btn1-feature:hover {
+    color: #e7eff6;
+}
+
+.con-post-job {
+    background-color: #e7eff6;
+}
+
+.con-post-job {
+    font-weight: bold;
+    font-size: large;
+}
+
+.post-job-btn{
+    background-color: #2a4d69;
+    height: 70px;
+    width: 110px;
+    outline: none;
+    border-radius: 10%;
+}
+
+.post-job-btn input{
+    border: none;
+    background-color: #2a4d69;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
